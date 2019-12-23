@@ -1,0 +1,226 @@
+/* phones */
+
+@media (min-width:200px) and (max-width: 767px) {
+    .side-nav {
+        display: none;
+    }
+    .bg-light {
+        background-color: black;
+    }
+    .col-sm-12 {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .logo-img {
+        margin-left: 1rem;
+    }
+    .shopping-cart {
+        display: none;
+    }
+    .bars {
+        color: white;
+        font-size: 35px;
+    }
+    .shopping-cart-mobile {
+        color: white;
+        font-size: 35px;
+        /* margin-left: ; */
+    }
+    .shopping-cart-mobile {
+        margin-left: 1rem;
+    }
+    .search-field {
+        display: none;
+    }
+    .category {
+        color: white !important;
+        border-bottom: 3px solid white;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .side-nav {
+        display: none;
+    }
+    .bars {
+        color: white;
+        font-size: 50px;
+        position: relative;
+        top: 1rem;
+    }
+    .shopping-cart-mobile {
+        color: white;
+        /* float: right; */
+        font-size: 55px;
+        top: 3rem;
+        position: fixed;
+        right: 2rem;
+    }
+    .col-sm-12 {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .logo-img {
+        width: 50% !important;
+        position: relative;
+        padding-left: 5rem;
+        left: 3rem;
+    }
+    .shopping-cart {
+        display: none;
+    }
+
+    .search-field {
+        display: none;
+    }
+
+    .category {
+        color: white !important;
+        border-bottom: 3px solid white;
+    }
+
+    #toggle-search {
+        position: fixed;
+        right: 8rem;
+        bottom: 3rem;
+        font-size: 50px;
+        color: white;
+        top: 5%;
+      } 
+}
+
+/* //laptops */
+
+/* div.social-icons {
+            position: fixed;
+            overflow: hidden;
+            clear: both;
+            bottom: 0;
+            left: 0;
+            outline: none;
+        } */
+
+body, html {
+    height: 100%;
+    font-family: Roboto;
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoYoutube:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoInstagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    ;
+}
+
+.social-network a.icoFacebook:hover i, .social-network a.icoYoutube:hover i, .social-network a.icoInstragram:hover i {
+    color: #fff;
+}
+
+.social-circle li a {
+    /* display: inline-block; */
+    /* position: relative; */
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 30%;
+    -webkit-border-radius: 30%;
+    border-radius: 30%;
+    /* text-align: center; */
+    font-size: 40px;
+    outline: none;
+}
+
+.social-circle li i {
+    margin: 15px;
+    line-height: 40px;
+    /* text-align: center; */
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+ul.container li a {
+    color: black;
+    text-decoration: none;
+    font: 25px Roboto;
+    padding: 15px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul.topBotomBordersIn li a:before, ul.topBotomBordersIn li a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+ul.topBotomBordersIn li a:before {
+    top: 0px;
+    transform: translateY(-10px);
+}
+
+ul.topBotomBordersIn li a:after {
+    bottom: 0px;
+    transform: translateY(10px);
+}
+
+ul.topBotomBordersIn li a:hover:before, ul.topBotomBordersIn li a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#searchBar {
+    background-color: #2f2f2f;
+    border: none;
+    color: white;
+    font-size: 12pt;
+    font-weight: 100;
+    margin-right: 10px;
+    padding: .25em .75em;
+    float: right;
+    max-width: 100%;
+    text-align: right;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+}
+
+#toggle-search {
+    float: right;
+}
+
+.side-nav {
+    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+}
